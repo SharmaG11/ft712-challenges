@@ -66,7 +66,7 @@
                     <a href="#">Grand Baie</a>
                   </div>
               </li>
-              <li><a href="#">Your Account</a></li>
+              <li><a href="#" class="account">Your Account</a></li>
             </ul>
           </div>
       </div>
@@ -302,9 +302,6 @@
       <img class="news-module-bg" src="https://images.unsplash.com/photo-1592727995117-4cdc7ee6fcb4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80">
     </div>
 
-
-
-
     <!--Pre Footer Wrapper-->
     <div class="pf-section">
         <div class="pf-wrapper">
@@ -352,6 +349,7 @@
     <div class="footer">
         <p> © copyright Fabrice Madré | Le Wagon (Web development Bootcamp) | Les Kokottes, Moka, Mauritius </p>
     </div>
+
     <!-- JQuery & Javascript Scripts-->
     <script>
       // ***navbar JS***
@@ -365,6 +363,14 @@
             navbar.classList.remove("navbar-white");
             navWrapper.classList.remove("top");
         }
+        });
+
+        const email = document.querySelector(".input-element");
+        const submitBtn = document.querySelector(".submit-button")
+        const emailAccount = document.querySelector(".account")
+        submitBtn.addEventListener("click", (event) => {
+          event.preventDefault();
+          emailAccount.innerHTML = email.value;
         });
     </script>
   </body>

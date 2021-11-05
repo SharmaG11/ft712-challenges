@@ -55,3 +55,24 @@ i {
   color: aliceblue;
   font-weight: 600;
 }
+
+#pointer {
+  position: absolute;
+  margin-top: 50px;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid white;
+}
+
+#pointer-child {
+  position: absolute;
+  left: -1px;
+  margin-top: 50px;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #303030;
+}
