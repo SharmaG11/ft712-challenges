@@ -1,12 +1,11 @@
 .team-text-section {
   width: 20%;
-  border: 2px solid yellow;
   padding: 30px;
   text-align: justify;
+  font-size: 14px;
 }
 
 .content-section {
-  border: 2px solid blue;
   display: flex;
   align-items: center;
   justify-content: center;

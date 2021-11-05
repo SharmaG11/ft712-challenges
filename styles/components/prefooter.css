@@ -1,7 +1,18 @@
+.pf-section {
+  margin-top: 60px;
+  margin-bottom: 70px;
+  width: 100%;
+}
+
+.pf-wrapper {
+  display:flex;
+  width: 80%;
+}
+
 .pf-index {
   position: relative;
   left: 10px;
-  height: 250px;
+  height: 200px;
   width: 20%;
   background-color: #303030;
   z-index: -1;
@@ -10,7 +21,7 @@
 .pf-child {
   position: relative;
   left: 10px;
-  height: 250px;
+  height: 200px;
   width: 20%;
   background-color: #797979;
   z-index: -20;
@@ -36,6 +47,7 @@
   text-align: center;
   color: white;
   height: 100%;
+  font-size: 13px;
 }
 
 i {
