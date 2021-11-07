@@ -110,10 +110,12 @@
 .dropdown-content-left a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content-right {
-  display:block;
+  display:flex;
+  justify-content: space-between;
 }
 .dropdown:hover .dropdown-content-left {
   display:flex;
+  justify-content: space-between;
 }
 
 .dropdown:hover .dropbtn {border-bottom: solid 1px #303030;}
